@@ -1,0 +1,17 @@
+.MainScreen{
+  height: 1300px;
+  width: 100%;
+  color: white;
+  background-color: rgba(14,24,42,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../components/Images/Universe3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -200px;
+}
+.DogImage{
+  width: 200px;
+
+}
