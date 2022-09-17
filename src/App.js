@@ -7,9 +7,9 @@ import { ProjectsScreen } from './screens/ProjectsScreen/ProjectsScreen';
 import { DonationsScreen } from './screens/DonationsScreen/DonationsScreen';
 
 function App() {
-  const main = useRef(null);
   /*  const projects = useRef(null);
   const aboutMe = useRef(null); */
+  const main = useRef(null);
   const donations = useRef(null);
 
   const scrollToSection = (elementRef) => {
@@ -22,13 +22,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <button>Hola</button>
+      <button onClick={() => scrollToSection(main)}>Hola</button>
       <button onClick={() => scrollToSection(donations)}>Donaciones</button>
       <MainScreen ref={main} />
       <ProjectsScreen />
+      <div ref={main}>THE MAINNNNNN</div>
       <AboutMeScreen />
-      <DonationsScreen />
-      <div ref={donations}>DONACIONES</div>
+      <DonationsScreen ref={donations} />
+      <div ref={donations}> DONATELOOOOO</div>
     </div>
   );
 }

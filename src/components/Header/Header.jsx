@@ -39,6 +39,7 @@ const Header = () => {
             sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
             <Button sx={{ my: 2, color: 'white', display: 'block' }}>{'My Projects'}</Button>
             <Button sx={{ my: 2, color: 'white', display: 'block' }}>{'About me'}</Button>
+            <a href="#about">ABOUT MEEEE</a>
             <Button
               sx={{
                 my: 2,

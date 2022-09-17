@@ -1,5 +1,9 @@
 import './AboutMeScreen.css';
 
 export const AboutMeScreen = () => {
-  return <div className="AboutMeScreen">About me Screen</div>;
+  return (
+    <div id="about" className="AboutMeScreen">
+      About me Screen
+    </div>
+  );
 };
